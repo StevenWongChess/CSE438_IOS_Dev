@@ -14,6 +14,10 @@
 		88E7E19A279F74C200ADDAB3 /* Lab3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E7E198279F74C200ADDAB3 /* Lab3.xcdatamodeld */; };
 		88E7E19C279F74C600ADDAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E7E19B279F74C600ADDAB3 /* Assets.xcassets */; };
 		88E7E19F279F74C600ADDAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E7E19D279F74C600ADDAB3 /* LaunchScreen.storyboard */; };
+		88E7E1A9279F7A7400ADDAB3 /* DrawingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7E1A6279F7A7400ADDAB3 /* DrawingItem.swift */; };
+		88E7E1AA279F7A7400ADDAB3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7E1A7279F7A7400ADDAB3 /* Shape.swift */; };
+		88E7E1AB279F7A7400ADDAB3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7E1A8279F7A7400ADDAB3 /* DrawingView.swift */; };
+		88E7E1AD27A08AA300ADDAB3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7E1AC27A08AA300ADDAB3 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		88E7E19B279F74C600ADDAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E7E19E279F74C600ADDAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E7E1A0279F74C600ADDAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E7E1A6279F7A7400ADDAB3 /* DrawingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingItem.swift; sourceTree = "<group>"; };
+		88E7E1A7279F7A7400ADDAB3 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		88E7E1A8279F7A7400ADDAB3 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		88E7E1AC27A08AA300ADDAB3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,14 @@
 		88E7E18E279F74C200ADDAB3 /* Lab3 */ = {
 			isa = PBXGroup;
 			children = (
-				88E7E18F279F74C200ADDAB3 /* AppDelegate.swift */,
-				88E7E191279F74C200ADDAB3 /* SceneDelegate.swift */,
 				88E7E193279F74C200ADDAB3 /* ViewController.swift */,
 				88E7E195279F74C200ADDAB3 /* Main.storyboard */,
+				88E7E18F279F74C200ADDAB3 /* AppDelegate.swift */,
+				88E7E191279F74C200ADDAB3 /* SceneDelegate.swift */,
+				88E7E1A6279F7A7400ADDAB3 /* DrawingItem.swift */,
+				88E7E1A8279F7A7400ADDAB3 /* DrawingView.swift */,
+				88E7E1A7279F7A7400ADDAB3 /* Shape.swift */,
+				88E7E1AC27A08AA300ADDAB3 /* Functions.swift */,
 				88E7E19B279F74C600ADDAB3 /* Assets.xcassets */,
 				88E7E19D279F74C600ADDAB3 /* LaunchScreen.storyboard */,
 				88E7E1A0279F74C600ADDAB3 /* Info.plist */,
@@ -140,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E7E1AB279F7A7400ADDAB3 /* DrawingView.swift in Sources */,
 				88E7E194279F74C200ADDAB3 /* ViewController.swift in Sources */,
+				88E7E1AA279F7A7400ADDAB3 /* Shape.swift in Sources */,
+				88E7E1AD27A08AA300ADDAB3 /* Functions.swift in Sources */,
 				88E7E190279F74C200ADDAB3 /* AppDelegate.swift in Sources */,
 				88E7E192279F74C200ADDAB3 /* SceneDelegate.swift in Sources */,
+				88E7E1A9279F7A7400ADDAB3 /* DrawingItem.swift in Sources */,
 				88E7E19A279F74C200ADDAB3 /* Lab3.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
