@@ -7,12 +7,19 @@
 
 import UIKit
 
+enum operation{
+    case draw
+    case move
+    case resize
+    case rotate
+    case erase
+}
 /**
  YOU MAY NOT MODIFY THIS FILE.
  */
 
 /// A view that can draw many custom items to the screen
-final class DrawingView: UIView {
+final class DrawingView: UIView{
     
     /// An array of the items which should be drawn in the `DrawingView`.
     ///
