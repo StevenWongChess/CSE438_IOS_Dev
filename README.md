@@ -2,7 +2,7 @@
 
 There are **four projects** and one Swift tutorial.
 
-You can find my lecture notes in `Notes.md`
+You can find my Swift learning notes in `Notes.md`
 
 ###### 1. DrawingApp
 
